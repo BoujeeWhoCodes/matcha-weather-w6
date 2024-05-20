@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 body {
-  background-color: #e9e4e4;
-  color: #6b7179;
-  font-family: "Oswald", sans-serif;
+  background-color: #494e60;
+  color: #d4d5d9;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
 a {
   text-decoration: none;
-  color: #375577;
+  color: #bf8240;
 }
 a:hover {
-  color: #cc7f6a;
+  color: #d4d5d9;
 }
