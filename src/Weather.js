@@ -63,7 +63,7 @@ export default function Weather(props) {
 										value='Search'
 										className='search-form-button'
 									>
-										submit
+										SEARCH
 									</button>
 								</div>
 								<WeatherForecast coordinates={weatherData.coordinates} />
