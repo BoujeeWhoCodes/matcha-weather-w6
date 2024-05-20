@@ -28,12 +28,14 @@
 }
 
 .current-city {
-  font-size: 30px;
+  font-size: 38px;
+  font-weight: 300;
   letter-spacing: 2px;
   overflow-wrap: break-word;
   text-transform: uppercase;
   margin: 20px 5px;
   line-height: 1.1;
+  font-family: "Montserrat",sans-serif;
 }
 
 .current-description {
@@ -63,25 +65,25 @@
 }
 
 .form-control {
-  background-color: #e9e4e4;
-  border: none;
+  background-color: #e4e4e1;
+  border: solid 1px #8698a0;
   font-size: 13px;
   padding: 10px;
   border-radius: 10px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px ;
   letter-spacing: 1px;
   font-family: "Oswald", sans-serif;
-  width: 100%;
+  width: 529px;
 }
 
 .search-form-button {
-  margin-left: 0px;
+  margin-left: 5px;
   font-size: 13px;
-  background-color: #8ca1b7;
+  background-color: #494e60;
   color: #ffffff;
   border: none;
-  padding: 6px;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  padding: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 500ms ease;
@@ -89,9 +91,10 @@
 }
 
 .search-form-button:hover {
-  background-color: #b5bdcb;
-  color: #375577;
+  background-color: #d4d5d9;
+  color: #494e60;
   cursor: pointer;
+  transition: all 500ms ease;
 }
 
 @media screen and (max-width: 660px) {
