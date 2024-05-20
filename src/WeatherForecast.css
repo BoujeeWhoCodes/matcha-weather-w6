@@ -1,20 +1,28 @@
 .weather-forecast-container {
   margin: 10px auto 0px auto;
   align-content: center;
+  justify-content: space-around;
+  font: 16px;
 }
 
 .forecast-day {
-  background-color: #f1f1f1;
+  background-color: #484e5f;
   display: flex;
   margin: 12px 0;
   border-radius: 10px;
   border-bottom: solid 1px #b6becb;
 }
 
+.forecast-day:hover {
+  transition: all 500ms ease;
+  background-color: #52596c;
+}
+
 .forecast-icon {
   padding: 5px 0 5px 10px;
   margin-top: 5px;
   align-content: center;
+ 
 }
 
 .forecast-date {
@@ -22,8 +30,12 @@
   text-align: left;
   align-content: space-around;
   letter-spacing: 1px;
-  padding-left: 30px;
-  font-size: 18px;
+  padding-left: 20px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .forecast-temperature {
@@ -40,14 +52,14 @@
 
 .forecast-temps-max {
   font-size: 20px;
-  font-weight: 400;
-  color: #375577;
+  font-weight: 600;
+  color: #bf8240;
   opacity: 0.8;
 }
 .forecast-temps-min {
   font-size: 16px;
-  opacity: 0.8;
   margin-left: 4px;
+  color: #bf8240;
 }
 
 .forecast-unit {

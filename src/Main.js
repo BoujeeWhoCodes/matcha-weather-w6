@@ -7,7 +7,7 @@ import './Main.css';
 export default function Main() {
 	return (
 		<div className='container'>
-			<Weather defaultCity='London' />
+			<Weather defaultCity='Bodrum' />
 			<div className='footer-container'>
 				Project coded by{' '}
 				<a

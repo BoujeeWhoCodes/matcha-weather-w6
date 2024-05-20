@@ -11,8 +11,6 @@
 
 .cwc-left {
   float: left;
-  background: rgb(139, 160, 183);
-  background: linear-gradient(180deg, rgba(139, 160, 183, 1) 0%, rgba(167, 179, 197, 1) 100%);
   width: 220px;
   border-radius: 10px;
   text-align: center;
