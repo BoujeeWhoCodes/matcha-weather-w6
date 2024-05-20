@@ -26,7 +26,7 @@ export default function Main() {
 					open-sourced
 				</a>{' '}
 				and hosted on{' '}
-				<a href='https://weather-app-react-zeta-flame.vercel.app/'>Netlify</a>
+				<a href='https://weather-week6-react-final.netlify.app/'>Netlify</a>
 			</div>
 		</div>
 	);
